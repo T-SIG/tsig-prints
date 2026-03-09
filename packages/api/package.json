@@ -1,0 +1,29 @@
+{
+  "name": "@tsig-prints/api",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@orpc/client": "catalog:",
+    "@orpc/openapi": "catalog:",
+    "@orpc/server": "catalog:",
+    "@orpc/zod": "catalog:",
+    "@tsig-prints/auth": "workspace:*",
+    "@tsig-prints/db": "workspace:*",
+    "@tsig-prints/env": "workspace:*",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@tsig-prints/config": "workspace:*",
+    "hono": "catalog:",
+    "typescript": "^5"
+  }
+}

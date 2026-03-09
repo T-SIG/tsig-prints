@@ -1,0 +1,3 @@
+{
+  "extends": "@tsig-prints/config/tsconfig.base.json"
+}
